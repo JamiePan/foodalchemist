@@ -1,6 +1,6 @@
 <?php if( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class BushfireModel extends CI_Model {
+class SharingModel extends CI_Model {
     function __construct()
     {
         parent::__construct();
@@ -17,7 +17,23 @@ class BushfireModel extends CI_Model {
         $result = $quary_result->result();
         return $result;        
     } 
- 
+    
+     /**
+     * Insert Method
+     * @param tableName
+     * @param dataObject
+     */
+    public function insert( $tableName ,$data ){
+
+        if ($this->db->insert($tableName, $data) ) {
+
+            return $this->db->insert_id();
+
+        } 
+
+        return -1 ;
+
+    } 
    
 
     public function getLocations( $result ){
