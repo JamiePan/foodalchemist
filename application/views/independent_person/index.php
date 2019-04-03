@@ -75,7 +75,7 @@ myMarker.setMap(map);
         <label class="control-label" >No Of People:</label>
     </div>
     <div class="col-sm-9">
-        <input style="width: 60%;" type="object_name" class="form-control"  placeholder="No Of People">
+        <input style="width: 60%;" name="no_of_people" class="form-control"  placeholder="No Of People">
     </div>
 
 </div>

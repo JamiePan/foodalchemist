@@ -75,7 +75,7 @@ myMarker.setMap(map);
         <label class="control-label" >Object Name:</label>
     </div>
     <div class="col-sm-9">
-        <input style="width: 60%;" type="object_name" class="form-control"  placeholder="Object Name">
+        <input style="width: 60%;" type="text" name="object_name" class="form-control"  placeholder="Object Name">
     </div>
 
 </div>
