@@ -31,7 +31,7 @@ class Independent_Person extends CI_Controller {
                'lat' =>  $lat ,
                'lng' =>  $lng ,
                'date' =>  $date ,
-               'no_of_people' =>  $no_of_people,
+               'no_of_peoples' =>  $no_of_people,
                'time' =>  $time
 
             );
