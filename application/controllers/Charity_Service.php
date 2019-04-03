@@ -1,20 +1,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Emergency_Shelters extends CI_Controller {
+class Charity_Service extends CI_Controller {
 
 	public function __construct(){
         parent::__construct();
-        $this->load->model('BushfireModel');
+        $this->load->model('SharingModel');
 
     }
 
 
 	public function index(){
 
-        $mapData = $this->BushfireModel->getAllfromTable('Emergency_Shelters');
-        $data['locations'] = $this->BushfireModel->getLocations($mapData);
-        $this->loadView('emergency_shelters/index', $data);
+        $this->loadView('charity_service/index', null);
     }
 
 

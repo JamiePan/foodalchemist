@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Webworld website for high end mobiles,like samsung nokia mobile website templates for free | Home :: w3layouts</title>
+        <title>Homeless</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
         </script>
@@ -44,8 +44,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <ul>
                             <li>
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="protfolio.html">Restraurant/Cafe Owner</a></li>
-                                <li><a href="contact.html">Charity Service</a></li>
+                                <li><a href="<?php echo site_url('Cafe_Owner'); ?>">Restraurant/Cafe Owner</a></li>
+                                <li><a href="<?php echo site_url('Charity_Service'); ?>">Charity Service</a></li>
                                 <li><a href="contact.html">Independent Person</a></li>
                                 <li><a href="contact.html">Dashboard</a></li>
                                 <div class="clear"> </div>
@@ -79,4 +79,3 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </nav>
             </div>
  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                  

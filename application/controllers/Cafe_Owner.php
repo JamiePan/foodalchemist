@@ -18,8 +18,7 @@ class Cafe_Owner extends CI_Controller {
 
 
     public function save(){
-        //$mapData = $this->BushfireModel->getAllfromTable('Cafe_Owner');
-        //$data['locations'] = $this->BushfireModel->getLocations($mapData);       
+  
         if($this->input->post()) {
            
    
@@ -41,7 +40,7 @@ class Cafe_Owner extends CI_Controller {
 
             $this->SharingModel->insert('cafe_owner',$data);
 
-            //redirect('Home');
+            redirect('Home');
         }
         
     }

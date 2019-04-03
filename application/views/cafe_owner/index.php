@@ -1,7 +1,11 @@
 
-            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script type="text/javascript" src="<?php echo base_url("includes/assets/js/jquery.cslider.js") ?> "></script>
-            <script type="text/javascript">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>            
+                <!---//End-da-slider----->
+                            <script type="text/javascript">
                 $(function() {
                 
                     $('#da-slider').cslider({
@@ -11,10 +15,6 @@
                 
                 });
             </script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>            
-                <!---//End-da-slider----->
             </div>
             <!--//End-header---->
         </div>
@@ -28,7 +28,7 @@
 <div class="row">
     <div class="col-sm-12">
         <form class="form-inline" method="post" action="<?php echo site_url('Cafe_Owner/save'); ?>">
-<form class="form-horizontal" action="/action_page.php">
+
 
 <br>
 <h4> Select Location On Map: </h4>
