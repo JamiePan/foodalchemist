@@ -20,7 +20,11 @@
             <div class="wrap">
             <!---start-welcome-note---->
             <div class="wellcome-note">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <p>Guardians Of Melbourne or GOM are the self-proclaimed saviors of Melbourne.
+We united after we saw that there are unsolved issues in this beautiful city. We are a
+bunch of immigrant students who call Melbourne home and have banded together
+and pledged to do everything and anything in our power to make this city the
+world&#39;s most liveable city once again. God bless Melbourne. God bless Australia.</p>
             </div>
             <!---//End-welcome-note---->
             <!---start-top-grids--->
