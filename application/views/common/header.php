@@ -12,7 +12,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
         </script>
         <link href="<?php echo base_url("includes/assets/css/style.css") ?>" rel="stylesheet" type="text/css" media="all" />
-        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
         <link href="<?php echo base_url("includes/assets/css/animate.css") ?>" rel="stylesheet" type="text/css" />
          <!--- <script type="text/javascript" src="<?php echo base_url("includes/assets/js/active.js") ?>"></script> -->
         <script type="text/javascript" src="<?php echo base_url("includes/assets/js/jquery.min.js") ?>"></script>
