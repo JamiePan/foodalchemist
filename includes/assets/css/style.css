@@ -41,12 +41,12 @@ body{
 }
 /*---start-top-header----*/
 .header{
-	background:url(../images/banner.jpg) no-repeat;
+	background:url(../images/slider-bg.png) no-repeat;
 	background-size: 100%;
 	min-height: 400px;
 }
 .port-header{
-	background: url(../images/banner.jpg) no-repeat 100%;
+	background: url(../images/slider-bg.png) no-repeat 100%;
 	background-size: 100%;
 	min-height: 300px;
 }
