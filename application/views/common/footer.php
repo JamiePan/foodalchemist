@@ -53,13 +53,7 @@
             <div class="copy-right-left">
                <p>&#169; All rights reserved.</p>
             </div>
-            <div class="copy-right-right">
-               <ul>
-                  <li><a class="twitter" href="#"><span> </span></a></li>
-                  <li><a class="facebook" href="#"><span> </span></a></li>
-                  <li><a class="linkedin"  href="#"><span> </span></a></li>
-               </ul>
-            </div>
+            
             <div class="clear"> </div>
          </div>
          </div>

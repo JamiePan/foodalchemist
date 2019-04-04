@@ -43,11 +43,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <div class="top-nav" id="navigation">
                         <ul>
                             <li>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="<?php echo site_url('Home'); ?>">Home</a></li>
                                 <li><a href="<?php echo site_url('Cafe_Owner'); ?>">Restraurant/Cafe Owner</a></li>
                                 <li><a href="<?php echo site_url('Charity_Service'); ?>">Charity Service</a></li>
                                 <li><a href="<?php echo site_url('Independent_Person'); ?>">Independent Person</a></li>
-                                <li><a href="#">Dashboard</a></li>
                                 <div class="clear"> </div>
                             </li>
                         </ul>
