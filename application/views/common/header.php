@@ -60,17 +60,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div id="da-slider" class="da-slider">
                 <div class="da-slide">
                     <h2>Sharing is Caring</h2>
-                    <h2>Via sharing we can show that we care</h2>
+                    <p>Via sharing we can show that we care</p>
 
                 </div>
                 <div class="da-slide">
-                    <h2>Mission: to leave no hungry stomach</h2><h2> Connecting Donations to people in need</h2>
+                    <h2>Mission: to leave no hungry stomach</h2><p> Connecting Donations to people in need</p>
 
 
                 </div>
                 <div class="da-slide">
                     <h2>Delivering value to those who need it most</h2>
-                    <h2>Helping the charity organization to be more efficient</h2>
+                    <p>Helping the charity organization to be more efficient</p>
 
 
                 </div>
