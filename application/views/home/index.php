@@ -20,11 +20,8 @@
             <div class="wrap">
             <!---start-welcome-note---->
             <div class="wellcome-note">
-                <p>Guardians Of Melbourne or GOM are the self-proclaimed saviors of Melbourne.
-We united after we saw that there are unsolved issues in this beautiful city. We are a
-bunch of immigrant students who call Melbourne home and have banded together
-and pledged to do everything and anything in our power to make this city the
-world&#39;s most liveable city once again. God bless Melbourne. God bless Australia.</p>
+                <p>This antidote borrows its idea from the popular manga series "Full Metal Alchemist" where alchemists use their power to yield anything they desire (except money) to help the sufferers in the context of European Industrial Revolution. Recent reports have suggested that there has been a steep rise of homeless people in the city of Melbourne, a successive increase in global food demand and improper waste management at restaurants (globally). This antidote combines all the problem to solve the problem of food for the home.
+</p>
             </div>
             <!---//End-welcome-note---->
             <!---start-top-grids--->
