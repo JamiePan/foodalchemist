@@ -34,9 +34,6 @@ world&#39;s most liveable city once again. God bless Melbourne. God bless Austra
                     <div class="top-grid-head">
                         
                     </div>
-                    <div class="top-grid-head-icon">
-                        <span> </span>
-                    </div>
                     <h3>Restraurant/Cafe Owner</h3>
 
                     </div>
