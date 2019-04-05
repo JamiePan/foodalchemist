@@ -39,7 +39,7 @@
 
 
 
-            <h2>Showing restaurants and cafes and gyms around the center</h2>
+            <h2>Showing restaurants and cafes around the center</h2>
             <div class="well">
                 <div id="wn3"></div>
             </div>
