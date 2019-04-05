@@ -29,37 +29,45 @@ world&#39;s most liveable city once again. God bless Melbourne. God bless Austra
             <!---//End-welcome-note---->
             <!---start-top-grids--->
             <div class="top-grids">
-                <div class="top-grid">
+                <a href="<?php echo site_url("Cafe_Owner"); ?>"> 
+                    <div class="top-grid">
                     <div class="top-grid-head">
                         
                     </div>
                     <div class="top-grid-head-icon">
                         <span> </span>
                     </div>
-                    <h3>What We Are</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                </div>
-                <div class="top-grid top-grid1">
-                    <div class="top-grid-head top-grid-head1">
-                        
+                    <h3>Restraurant/Cafe Owner</h3>
+
                     </div>
-                    <div class="top-grid-head-icon top-grid-head-icon1">
-                        <span> </span>
+                </a>
+                <a href="<?php echo site_url("Independent_Person"); ?>"> 
+                    <div class="top-grid top-grid1">
+
+                        <div class="top-grid-head top-grid-head1">
+                            
+                        </div>
+                        <div class="top-grid-head-icon top-grid-head-icon1">
+                            <span> </span>
+                        </div>
+                        <h3>Independent Person</h3>
+
                     </div>
-                    <h3>Start Our Project</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                </div>
-                <div class="top-grid top-last-grid">
-                    <div class="top-grid-head top-grid-head3">
-                        
+                </a>
+                <a href="<?php echo site_url("Charity_Service"); ?>"> 
+                    <div class="top-grid top-last-grid">
+                        <div class="top-grid-head top-grid-head3">
+                            
+                        </div>
+                        <div class="top-grid-head-icon top-grid-head-icon3">
+                            <span> </span>
+                        </div>
+                        <h3>Charity Service</h3>
+
                     </div>
-                    <div class="top-grid-head-icon top-grid-head-icon3">
-                        <span> </span>
-                    </div>
-                    <h3>Our Team</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                </div>
+                </a>
                 <div class="clear"> </div>
+
             </div>
             <!---//End-top-grids--->
             <!---start-Features---->
