@@ -50,12 +50,12 @@
 <script type="text/javascript">
     var map = new google.maps.Map(document.getElementById('map_canvas'), {
     zoom: 5,
-    center: new google.maps.LatLng(-24.505, 132.921),
+    center: new google.maps.LatLng(-38.1647652,144.5201605),
     mapTypeId: google.maps.MapTypeId.ROADMAP
 });
 
 var myMarker = new google.maps.Marker({
-    position: new google.maps.LatLng(-24.505, 132.921),
+    position: new google.maps.LatLng(-38.1647652,144.5201605),
     draggable: true
 });
 google.maps.event.addListener(myMarker, 'dragend', function(evt){
