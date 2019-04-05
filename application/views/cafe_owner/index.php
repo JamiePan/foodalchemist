@@ -46,7 +46,7 @@
 
 
 </style>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyAagQEfKTfr-TJTX-adxKcIk3hWZ6jDRy4&sensor=false&.js"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyAagQEfKTfr-TJTX-adxKcIk3hWZ6jDRy4&sensor=false&.js"></script>
 <script type="text/javascript">
     var map = new google.maps.Map(document.getElementById('map_canvas'), {
     zoom: 1,
