@@ -4,7 +4,7 @@
            
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>        
-   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&language=en&libraries=places&key=AIzaSyAagQEfKTfr-TJTX-adxKcIk3hWZ6jDRy4"></script>
+  <!--  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&language=en&libraries=places&key=AIzaSyAagQEfKTfr-TJTX-adxKcIk3hWZ6jDRy4"></script> -->
     
         <script src="<?php echo base_url("includes/assets/js/es5-shim.min.js") ?>" type="text/javascript"></script>
         <script src="<?php echo base_url("includes/assets/js/es5-sham.min.js") ?>" type="text/javascript"></script>
@@ -92,6 +92,9 @@ google.maps.event.addListener(marker, 'click', (function (marker, count) {
   }
 }    
 </script>        
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAagQEfKTfr-TJTX-adxKcIk3hWZ6jDRy4&callback=initMap">
+</script>
 <!--         <script type="text/javascript">
             $(document).ready(function(){
 
