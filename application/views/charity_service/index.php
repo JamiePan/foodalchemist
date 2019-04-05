@@ -65,7 +65,34 @@
    
             </div>
         </div>
-        <script type="text/javascript">
+<script>
+
+function initMap() {
+
+var center = {lat: -28.4400743, lng: 132.9820586};
+var locations = <?php echo $data['locations']; ?>;
+var map = new google.maps.Map(document.getElementById('wn3'), {
+    zoom: 3,
+    center: center
+  });
+var infowindow =  new google.maps.InfoWindow({});
+var marker, count;
+for (count = 0; count < locations.length; count++) {
+    marker = new google.maps.Marker({
+      position: new google.maps.LatLng(locations[count][1], locations[count][2]),
+      map: map,
+      title: locations[count][0]
+    });
+google.maps.event.addListener(marker, 'click', (function (marker, count) {
+      return function () {
+        infowindow.setContent(locations[count][0]);
+        infowindow.open(map, marker);
+      }
+    })(marker, count));
+  }
+}    
+</script>        
+<!--         <script type="text/javascript">
             $(document).ready(function(){
 
                 navigator.geolocation.getCurrentPosition(showPosition);
@@ -87,6 +114,6 @@
 
 
             });
-        </script>        
+        </script>  -->       
         <!---End-content---->
 

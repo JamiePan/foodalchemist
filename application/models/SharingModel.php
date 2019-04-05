@@ -40,7 +40,7 @@ class SharingModel extends CI_Model {
 
         $location = []; $location_data = [];
         foreach ($result as $key => $value) {
-            $location_data = '["' .$value->Name .'", '. $value->Latitude . ', '. $value->Longitude .']';
+            $location_data = '["' .$value->object_name .'", '. $value->lat . ', '. $value->lng .']';
             array_push($location, $location_data);
             $location_data = [];
         }

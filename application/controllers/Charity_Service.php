@@ -11,8 +11,11 @@ class Charity_Service extends CI_Controller {
 
 
 	public function index(){
+        
+        $mapData = $this->SharingModel->getAllfromTable('cafe_owner');
+        $data['locations'] = $this->SharingModel->getLocations($mapData);
+        $this->loadView('charity_service/index',  $data);
 
-        $this->loadView('charity_service/index', null);
     }
 
 
