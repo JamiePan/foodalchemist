@@ -34,9 +34,7 @@ world&#39;s most liveable city once again. God bless Melbourne. God bless Austra
                     <div class="top-grid-head">
                         
                     </div>
-                    <div class="top-grid-head-icon">
-                        <span> </span>
-                    </div>
+
                     <h3>Restraurant/Cafe Owner</h3>
 
                     </div>
@@ -47,9 +45,7 @@ world&#39;s most liveable city once again. God bless Melbourne. God bless Austra
                         <div class="top-grid-head top-grid-head1">
                             
                         </div>
-                        <div class="top-grid-head-icon top-grid-head-icon1">
-                            <span> </span>
-                        </div>
+
                         <h3>Independent Person</h3>
 
                     </div>
@@ -58,9 +54,6 @@ world&#39;s most liveable city once again. God bless Melbourne. God bless Austra
                     <div class="top-grid top-last-grid">
                         <div class="top-grid-head top-grid-head3">
                             
-                        </div>
-                        <div class="top-grid-head-icon top-grid-head-icon3">
-                            <span> </span>
                         </div>
                         <h3>Charity Service</h3>
 
