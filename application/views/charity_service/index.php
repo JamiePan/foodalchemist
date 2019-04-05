@@ -13,9 +13,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>        
   <!--  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&language=en&libraries=places&key=AIzaSyAagQEfKTfr-TJTX-adxKcIk3hWZ6jDRy4"></script> -->
     
-        <script src="<?php echo base_url("includes/assets/js/es5-shim.min.js") ?>" type="text/javascript"></script>
+<!--         <script src="<?php echo base_url("includes/assets/js/es5-shim.min.js") ?>" type="text/javascript"></script>
         <script src="<?php echo base_url("includes/assets/js/es5-sham.min.js") ?>" type="text/javascript"></script>
-        <script src="<?php echo base_url("includes/assets/js/WhatsNearby.js") ?>" type="text/javascript"></script>  
+        <script src="<?php echo base_url("includes/assets/js/WhatsNearby.js") ?>" type="text/javascript"></script>   -->
 <!--                  <script type="text/javascript">
                 $(function() {
                 
@@ -76,7 +76,7 @@
 
 function initMap() {
 
-var center = {lat: -28.4400743, lng: 132.9820586};
+var center = {lat: -37.815, lng: 144.961};
 var locations = <?php echo $data['locations']; ?>;
 var map = new google.maps.Map(document.getElementById('wn3'), {
     zoom: 15,

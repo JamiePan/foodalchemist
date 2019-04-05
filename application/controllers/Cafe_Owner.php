@@ -40,7 +40,7 @@ class Cafe_Owner extends CI_Controller {
 
             $this->SharingModel->insert('cafe_owner',$data);
 
-            redirect('Home');
+            redirect('Cafe_Owner');
         }
         
     }
