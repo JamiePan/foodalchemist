@@ -1,5 +1,5 @@
       <!---strat-footer--->
-      <div class="footer">
+<!--       <div class="footer">
          <div class="wrap">
             <div class="footer-grid footer-grid1">
                <h4><a href="#"><img src="<?php echo base_url("includes/assets/images/flogo.png") ?>" alt="" /></a></h4>
@@ -45,7 +45,7 @@
             </div>
             <div class="clear"> </div>
          </div>
-      </div>
+      </div> -->
       <!---End-footer--->
       <!---strat-copy-right---->
       <div class="copy-right">
