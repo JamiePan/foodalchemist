@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="HSQLDB (Local) - jdbc:hsqldb:file:C:/Users/default user/Desktop/IE/Datasets/Cafes_and_restaurants__with_seating_capacity.csv/" uuid="eb8397f9-c0f8-4438-afa8-37b5d21723d7">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="HSQLDB" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+    </data-source>
+  </component>
+</project>

@@ -29,17 +29,10 @@ class Cafe_Owner extends CI_Controller {
   
         if($this->input->post()) {
            
-            $data = $this->SharingModel->getRestaurants();
-            // $arr = array();
-            foreach($data as $r){
-                $data[] = $r['title'];
-            }
-            // print_r($data);exit;
+   
             $lat = $this->input->post('lat', true);
             $lng = $this->input->post('lng', true);
             $object_name = $this->input->post('object_name', true);
-            $check = in_array($object_name, $data);
-            
             $name_of_food = $this->input->post('name_of_food', true);
             $quantity_of_food = $this->input->post('quantity_of_food', true);
             $date = $this->input->post('date', true);
@@ -52,15 +45,10 @@ class Cafe_Owner extends CI_Controller {
                'date' => $date
 
             );
-            if($check == 1){
-                $this->SharingModel->insert('cafe_owner',$data);
-                redirect('Cafe_Owner');
-            }
-            else{
-                redirect('Cafe_Owner');
-            }
 
-            
+            $this->SharingModel->insert('cafe_owner',$data);
+
+            redirect('Cafe_Owner');
         }
         
     }

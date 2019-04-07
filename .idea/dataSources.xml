@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="HSQLDB (Local) - jdbc:hsqldb:file:C:/Users/default user/Desktop/IE/Datasets/Cafes_and_restaurants__with_seating_capacity.csv/" uuid="eb8397f9-c0f8-4438-afa8-37b5d21723d7">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/../../../Datasets/Cafes_and_restaurants__with_seating_capacity.csv/</jdbc-url>
+    </data-source>
+  </component>
+</project>

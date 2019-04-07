@@ -47,5 +47,14 @@ class SharingModel extends CI_Model {
         $data = '['. implode(",",$location) . ']';
         return $data;
     }
+	
+	public function getRestaurants(){
+        try{
+            $qryLicence = 'SELECT DISTINCT INDUSTRY_ANZSIC4_CODE as title from restro_staging;';
+            return $this->db->query($qryLicence)->result_array();
+        }catch(Exception $e){
+            return false;
+        }
+    }
 
 }
